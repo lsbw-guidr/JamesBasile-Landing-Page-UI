@@ -1,0 +1,42 @@
+.body-content {
+    .content-box {
+        display:flex;
+        width:95%;
+        flex-wrap: nowrap;
+        margin: 0 auto;
+        padding: 5% 5%;
+        border-top: 1px solid @guidr-pink;
+        font-size: 1rem;
+
+        h3 {
+            color: @guidr-purp;
+            font-weight: bold;
+        }
+
+        &.text-right{
+        flex-direction: row-reverse;
+        }
+
+        .content{
+            width:50%; 
+
+            p{
+                font-size: 1rem;
+                @media @desktop {
+                    font-size: 1.4rem;
+                }
+            }
+        }
+
+        .body-img{
+            height:100%;
+            width:100%;
+
+            img{
+                height:100%;
+                width:100%;
+            }
+        }
+        
+    }
+}
