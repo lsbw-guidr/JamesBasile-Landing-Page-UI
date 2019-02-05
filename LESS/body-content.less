@@ -1,15 +1,24 @@
+.header-img {
+    width: 100%;
+    margin: 0 auto;
+    
+    img{
+        width:100%;
+    }
+}
+//formatting for header image^^^^
 .body-content {
     height:auto;
     .content-box {
         display:flex;
         width:95%;
         height: auto;
-        //****MAKE HEIGHT # of 'content-box's divided by 100 rounded down//
         flex-wrap: wrap;
         margin: 0 auto;
         padding: 5% 5%;
-        border-top: 1px solid @guidr-pink;
+        border-top: 1px solid @guidr-gray;
         font-size: 1rem;
+        
         
 
         h3 {
@@ -19,12 +28,16 @@
 
         &.text-right{
         flex-direction: row-reverse;
+        
         }
 
         .content{
-            width:50%; 
+            width:90%; 
             border: 3px solid @guidr-pink;
             padding: 5%;
+            @media(min-width: 800px){
+             width:45%;   
+            }
            
 
             p{
@@ -34,14 +47,22 @@
         }
 
         .body-img{
-            height:30%;
-            width:50%;
+            height:100%;
+            width:100%;
+            @media(min-width: 800px){
+             width:50%;   
+            }
 
             img{
                 height:100%;
                 width:100%;
                 padding:2%
             }
+        }
+
+        @media(min-width: 800px){
+                flex-wrap: wrap;
+                justify-content: space-between;
         }
         
     }
