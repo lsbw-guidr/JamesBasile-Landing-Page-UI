@@ -203,10 +203,14 @@ p {
 .content-box {
   color: #4A4A4A;
 }
+.body-content {
+  height: auto;
+}
 .body-content .content-box {
   display: flex;
   width: 95%;
-  flex-wrap: nowrap;
+  height: auto;
+  flex-wrap: wrap;
   margin: 0 auto;
   padding: 5% 5%;
   border-top: 1px solid #BD10E0;
@@ -221,22 +225,20 @@ p {
 }
 .body-content .content-box .content {
   width: 50%;
+  border: 3px solid #BD10E0;
+  padding: 5%;
 }
 .body-content .content-box .content p {
-  font-size: 1rem;
-}
-@media (min-width 800px) {
-  .body-content .content-box .content p {
-    font-size: 1.4rem;
-  }
+  font-size: 1.2rem;
 }
 .body-content .content-box .body-img {
-  height: 100%;
-  width: 100%;
+  height: 30%;
+  width: 50%;
 }
 .body-content .content-box .body-img img {
   height: 100%;
   width: 100%;
+  padding: 2%;
 }
 .footer-content {
   background-color: #661FFF;

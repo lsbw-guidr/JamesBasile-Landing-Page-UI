@@ -1,12 +1,16 @@
 .body-content {
+    height:auto;
     .content-box {
         display:flex;
         width:95%;
-        flex-wrap: nowrap;
+        height: auto;
+        //****MAKE HEIGHT # of 'content-box's divided by 100 rounded down//
+        flex-wrap: wrap;
         margin: 0 auto;
         padding: 5% 5%;
         border-top: 1px solid @guidr-pink;
         font-size: 1rem;
+        
 
         h3 {
             color: @guidr-purp;
@@ -19,22 +23,24 @@
 
         .content{
             width:50%; 
+            border: 3px solid @guidr-pink;
+            padding: 5%;
+           
 
             p{
-                font-size: 1rem;
-                @media @desktop {
-                    font-size: 1.4rem;
-                }
+                font-size: 1.2rem;
+                
             }
         }
 
         .body-img{
-            height:100%;
-            width:100%;
+            height:30%;
+            width:50%;
 
             img{
                 height:100%;
                 width:100%;
+                padding:2%
             }
         }
         
