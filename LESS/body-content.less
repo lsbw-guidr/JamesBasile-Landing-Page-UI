@@ -7,9 +7,11 @@
     }
 }
 //formatting for header image^^^^
+
 .body-content {
     height:auto;
     .content-box {
+        //formatting for boxes that each have h3, p, and image
         display:flex;
         width:95%;
         height: auto;
@@ -22,6 +24,7 @@
         
 
         h3 {
+            //styling for header in each text box
             color: @guidr-purp;
             font-weight: bold;
         }
@@ -32,9 +35,10 @@
         }
 
         .content{
+            //just the text next to images
             width:90%; 
             border: 3px solid @guidr-pink;
-            padding: 5%;
+            padding: 3%;
             @media(min-width: 800px){
              width:45%;   
             }
