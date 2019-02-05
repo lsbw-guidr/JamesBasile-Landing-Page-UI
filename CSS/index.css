@@ -1,3 +1,8 @@
+/*Variables*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 html,
 body,
 div,
@@ -218,7 +223,7 @@ p {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  height: 500px;
+  height: 300px;
   position: relative;
   overflow: hidden;
   margin-top: 16px;
@@ -226,6 +231,11 @@ p {
 @media (min-width: 1200px) {
   .carousel {
     width: 1200px;
+  }
+}
+@media (min-width: 800px) {
+  .carousel {
+    height: 500px;
   }
 }
 .carousel .left-button,
