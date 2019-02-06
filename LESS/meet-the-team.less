@@ -2,7 +2,7 @@
     margin: 0 auto;
     display:flex;
     flex-wrap: wrap;
-    padding-top:15px;
+    padding-top:115px;
     width: 95%;
     align-content: center;
 
@@ -13,16 +13,64 @@
         border-top:1px solid @guidr-purp;
         align-items: center;
 
+        .scrum-UX-box {
+            @media (min-width: 800px) {
+                display: flex;
+                flex-wrap: nowrap;
+                flex-direction: row;
+            }
+        }
+
+        .UI-box {
+            @media (min-width: 800px) {
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row;
+
+            
+            }
+
+        }
+
+        .front-box {
+            @media (min-width: 800px) {
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            }
+
+        }
+
+        .back-box {
+            @media (min-width: 800px) {
+                display:flex;
+                justify-content: center;
+                width: 45%;
+                flex-wrap: wrap;
+                margin:0 auto;
+                
+                }
+        }
+
+        
+
+
         .meet-img {
             width:250px;
             margin: 15px auto;
             height: 200px;
+            align-items: center;
             
 
             img {
                 height:100%;
                 width: 100%;
+
                 
+            }
+
+            @media screen and (min-width: 800px) and (max-width:1050px) {
+                width: 75%;
             }
         }
         
@@ -32,9 +80,18 @@
              
         }
 
-
         
+
+
+
+        .scrum-UX-content {
+            @media (min-width: 800px) {
+                margin: 0 auto;
+                width:45%;
+            }
+        }
+       
+        }
         
     }
 
-}
