@@ -189,10 +189,11 @@ table {
   padding: 15px 0;
   font-size: 18px;
   text-decoration: none;
-  color: #F5A623;
+  color: #661FFF;
+  border-bottom: 1px solid #F5A623;
 }
 .header-content .dropdown .dropdown-link:hover {
-  color: white;
+  color: #661FFF;
   background-color: #F5A623;
 }
 .header-content .dropdown .dropdown-hidden {
@@ -453,6 +454,37 @@ html {
   font-size: 1.2rem;
   color: #F5A623;
   filter: drop-shadow(1px 1px 1px black);
+}
+.body-content-meet {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 15px;
+  width: 95%;
+  align-content: center;
+}
+.body-content-meet .meet-box {
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 2%;
+  border-top: 1px solid #661FFF;
+  align-items: center;
+}
+.body-content-meet .meet-box .meet-img {
+  width: 250px;
+  margin: 15px auto;
+  height: 200px;
+}
+.body-content-meet .meet-box .meet-img img {
+  height: 100%;
+  width: 100%;
+}
+.body-content-meet .meet-box .scrum-UX-content,
+.body-content-meet .meet-box .UI-content,
+.body-content-meet .meet-box .front-content,
+.body-content-meet .meet-box .back-content {
+  margin: 20px 20px;
+  padding: 10px 10px;
 }
 section {
   border: 1px solid red;
