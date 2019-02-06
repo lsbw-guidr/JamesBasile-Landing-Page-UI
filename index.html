@@ -11,21 +11,34 @@
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
     <link href="./CSS/index.css" rel="stylesheet">
 
-    <script src='./JS/main.js' async></script>
+
+
 </head>
 
 
 <body>
+    <script defer='defer' src='./JS/dropdown.js' async></script>
+    <script defer='defer' src='./JS/carousel.js' async></script>
     <!--ALL CONTENT-->
     <section class="container-all">
         <!--HEADER-->
         <header>
+            <!--DROPDOWN NAV RIGHT IN HEADER-->
             <section class="header-content">
-
-                <!---->
+                <div class="dropdown">
+                    <div class="dropdown-button">Menu&#9660</div>
+                    <div class="dropdown-content dropdown-hidden">
+                        <a href="#1" class="dropdown-link">Features</a>
+                        <a href="#" class="dropdown-link">Meet the Team</a>
+                        <a href="#" class="dropdown-link">Log In</a>
+                        <a href="#" class="dropdown-link">Sign Up</a>
+                    </div>
+                </div>
+                <!--LOGO CENTER OF HEADER-->
                 <div class="header-left">
                     <img class="logo" src="img/logo_white.png" alt="LOGO">
                 </div>
+                <!--BUTTONS LEFT IN HEADER-->
                 <div class="header-right">
 
                     <button class='sign-in'>Sign In</button>
@@ -46,55 +59,59 @@
         <!--CAROUSEL of IMAGES-->
 
         <div class="carousel">
-                <div class="left-button"><</div>
-                <img class='current' src="img/hiking1.jpg" />
+            <div class="left-button">
+                <</div> <img class='current' src="img/hiking1.jpg" />
                 <img src="img/hiking2.jpg" />
                 <img src="img/logo.png" />
                 <img src="#" />
                 <div class="right-button">></div>
-              </div> 
+            </div>
+        </div>
 
         <section class="body-content">
-            <!--To add more boxes, use the same class names and elements to keep consistent styling-->
-            <!--Content Box 1-->
-            <div class="content-box text-left">
-                <div class="content">
-                    <h3>HEADLINE HEADLINE HEADLINE HEADLINE HEADLINE</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nobis cum deleniti maiores
-                        officia quasi natus facilis, incidunt rerum blanditiis distinctio exercitationem,
-                        praesentium assumenda nemo soluta ipsa corrupti consectetur modi.</p>
+            <section class='features' id='1'>
+                <h2>Features</h2>
+                <!--To add more boxes, use the same class names and elements to keep consistent styling-->
+                <!--Content Box 1-->
+                <div class="content-box text-left">
+                    <div class="content">
+                        <h3>HEADLINE HEADLINE HEADLINE HEADLINE HEADLINE</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nobis cum deleniti maiores
+                            officia quasi natus facilis, incidunt rerum blanditiis distinctio exercitationem,
+                            praesentium assumenda nemo soluta ipsa corrupti consectetur modi.</p>
+                    </div>
+                    <div class="body-img">
+                        <img src="img/hiking1.jpg" alt="Image">
+                    </div>
+
                 </div>
-                <div class="body-img">
-                    <img src="img/hiking1.jpg" alt="Image">
+                <!--Content Box 2-->
+                <div class="content-box text-right">
+                    <div class="content">
+                        <h3>HEADLINE HEADLINE HEADLINE HEADLINE HEADLINE</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nobis cum deleniti maiores
+                            officia quasi natus facilis, incidunt rerum blanditiis distinctio exercitationem,
+                            praesentium assumenda nemo soluta ipsa corrupti consectetur modi.</p>
+                    </div>
+                    <div class="body-img">
+                        <img src="img/hiking2.jpg" alt="Image">
+                    </div>
+
+                </div>
+                <!--Content Box 3-->
+                <div class="content-box text-left">
+                    <div class="content">
+                        <h3>HEADLINE HEADLINE HEADLINE HEADLINE HEADLINE</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nobis cum deleniti maiores
+                            officia quasi natus facilis, incidunt rerum blanditiis distinctio exercitationem,
+                            praesentium assumenda nemo soluta ipsa corrupti consectetur modi.</p>
+                    </div>
+                    <div class="body-img">
+                        <img src="img/hiking3.jpg" alt="Image">
+                    </div>
                 </div>
 
-            </div>
-            <!--Content Box 2-->
-            <div class="content-box text-right">
-                <div class="content">
-                    <h3>HEADLINE HEADLINE HEADLINE HEADLINE HEADLINE</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nobis cum deleniti maiores
-                        officia quasi natus facilis, incidunt rerum blanditiis distinctio exercitationem,
-                        praesentium assumenda nemo soluta ipsa corrupti consectetur modi.</p>
-                </div>
-                <div class="body-img">
-                    <img src="img/hiking2.jpg" alt="Image">
-                </div>
-
-            </div>
-            <!--Content Box 3-->
-            <div class="content-box text-left">
-                <div class="content">
-                    <h3>HEADLINE HEADLINE HEADLINE HEADLINE HEADLINE</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nobis cum deleniti maiores
-                        officia quasi natus facilis, incidunt rerum blanditiis distinctio exercitationem,
-                        praesentium assumenda nemo soluta ipsa corrupti consectetur modi.</p>
-                </div>
-                <div class="body-img">
-                    <img src="img/hiking3.jpg" alt="Image">
-                </div>
-            </div>
-            </div>
+            </section>
         </section>
 
     </section>
@@ -102,10 +119,10 @@
     <footer>
         <div class="footer-content">
             <nav>
-                <a href="#">Log In</a>
-                <a href="#">Sign Up</a>
-                <a href="#">Contact Us</a>
+                <a href="#">Features</a>
                 <a href="#">Meet the Team</a>
+                <a href="#">Log in</a>
+                <a href="#">Sign Up</a>
             </nav>
 
             <div class="copyright">
@@ -115,7 +132,7 @@
         </div>
 
     </footer>
-    
+
 </body>
 
 </html>

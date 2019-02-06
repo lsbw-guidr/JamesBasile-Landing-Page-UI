@@ -10,6 +10,12 @@
 
 .body-content {
     height:auto;
+
+    .features {
+        padding: 2% 1%;
+        color: @guidr-orange;
+        
+    }
     .content-box {
         //formatting for boxes that each have h3, p, and image
         display:flex;
@@ -45,8 +51,10 @@
            
 
             p{
-                font-size: 1.2rem;
-                
+                font-size: 1.3rem;
+                @media(min-width: 800px){
+                    font-size: 1.6rem;   
+                   }
             }
         }
 
