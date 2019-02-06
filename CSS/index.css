@@ -374,6 +374,9 @@ html {
   padding: 2% 1%;
   color: #F5A623;
 }
+.body-content .features h2 {
+  padding-left: 2.5%;
+}
 .body-content .content-box {
   display: flex;
   width: 95%;
@@ -381,7 +384,7 @@ html {
   flex-wrap: wrap;
   margin: 0 auto;
   padding: 5% 5%;
-  border-top: 1px solid #4A4A4A;
+  border-top: 1px solid #BD10E0;
   font-size: 1rem;
 }
 .body-content .content-box h3 {
@@ -471,7 +474,7 @@ html {
   width: 100%;
   flex-wrap: wrap;
   padding: 2%;
-  border-top: 1px solid #661FFF;
+  border-top: 1px solid #BD10E0;
   align-items: center;
 }
 @media (min-width: 800px) {
@@ -531,13 +534,4 @@ html {
     margin: 0 auto;
     width: 45%;
   }
-}
-section {
-  border: 1px solid red;
-}
-div {
-  border: 1px solid green;
-}
-img {
-  border: 1px solid blue;
 }
