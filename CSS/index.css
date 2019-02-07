@@ -495,7 +495,8 @@ html {
   color: #661FFF;
 }
 .body-content-meet .meet-box h4 {
-  color: #000000;
+  color: #F5A623;
+  font-weight: bold;
 }
 .body-content-meet .meet-box .git-linkedin-nav {
   display: flex;
