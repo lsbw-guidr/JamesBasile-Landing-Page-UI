@@ -49,12 +49,12 @@
         .content{
             //just the text next to images
             width:90%; 
-            border: 1px solid @guidr-pink;
+            //border: 1px solid @guidr-pink;
             border-radius: 10px;
             padding: 3%;
-            @media(min-width: 800px){
-             width:45%;   
-            }
+            box-shadow:0px 0px 10px 0px @guidr-purp;
+            
+           
 
             h3 {
                 font-weight: bold;
@@ -69,6 +69,10 @@
                     font-size: 1.6rem;   
                    }
             }
+
+            @media(min-width: 800px){
+                width:45%;   
+               }
         }
 
         .body-img{
