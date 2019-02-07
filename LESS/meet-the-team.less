@@ -6,12 +6,49 @@
     width: 95%;
     align-content: center;
 
+    h1 {
+        font-weight: bold;
+        padding-bottom: 10px;
+        color: @guidr-orange;
+    }
+
     .meet-box {
         width: 100%;
         flex-wrap:wrap;
         padding: 2%;
         border-top:1px solid @guidr-pink;
         align-items: center;
+        
+        p {
+            color: @guidr-gray;
+        }
+
+        h2 {
+            font-weight: bold;
+            color: @guidr-purp;
+        }
+
+        h4 {
+            color: @guidr-black;
+        }
+
+        .git-linkedin-nav {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            a{
+                font-size: 1.8rem;
+                padding-top:10px;
+                color: @guidr-purp;
+                @media screen and (min-width:800px) {
+                    font-size: 2rem;
+                }
+            }
+        }
 
         .scrum-UX-box {
             @media (min-width: 800px) {

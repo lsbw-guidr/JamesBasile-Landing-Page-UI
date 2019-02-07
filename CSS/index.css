@@ -373,6 +373,7 @@ html {
 .body-content .features {
   padding: 2% 1%;
   color: #F5A623;
+  font-weight: bold;
 }
 .body-content .features h2 {
   padding-left: 2.5%;
@@ -396,13 +397,17 @@ html {
 }
 .body-content .content-box .content {
   width: 90%;
-  border: 3px solid #BD10E0;
+  border: 1px solid #BD10E0;
+  border-radius: 10px;
   padding: 3%;
 }
 @media (min-width: 800px) {
   .body-content .content-box .content {
     width: 45%;
   }
+}
+.body-content .content-box .content h3 {
+  font-weight: bold;
 }
 .body-content .content-box .content p {
   font-size: 1.3rem;
@@ -470,12 +475,45 @@ html {
   width: 95%;
   align-content: center;
 }
+.body-content-meet h1 {
+  font-weight: bold;
+  padding-bottom: 10px;
+  color: #F5A623;
+}
 .body-content-meet .meet-box {
   width: 100%;
   flex-wrap: wrap;
   padding: 2%;
   border-top: 1px solid #BD10E0;
   align-items: center;
+}
+.body-content-meet .meet-box p {
+  color: #4A4A4A;
+}
+.body-content-meet .meet-box h2 {
+  font-weight: bold;
+  color: #661FFF;
+}
+.body-content-meet .meet-box h4 {
+  color: #000000;
+}
+.body-content-meet .meet-box .git-linkedin-nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.body-content-meet .meet-box .git-linkedin-nav a {
+  font-size: 1.8rem;
+  padding-top: 10px;
+  color: #661FFF;
+}
+@media screen and (min-width: 800px) {
+  .body-content-meet .meet-box .git-linkedin-nav a {
+    font-size: 2rem;
+  }
 }
 @media (min-width: 800px) {
   .body-content-meet .meet-box .scrum-UX-box {

@@ -15,6 +15,7 @@
     .features {
         padding: 2% 1%;
         color: @guidr-orange;
+        font-weight: bold;
 
         h2 {
             padding-left: 2.5%;
@@ -48,11 +49,18 @@
         .content{
             //just the text next to images
             width:90%; 
-            border: 3px solid @guidr-pink;
+            border: 1px solid @guidr-pink;
+            border-radius: 10px;
             padding: 3%;
             @media(min-width: 800px){
              width:45%;   
             }
+
+            h3 {
+                font-weight: bold;
+            }
+
+
            
 
             p{
@@ -66,6 +74,7 @@
         .body-img{
             height:100%;
             width:100%;
+            
             @media(min-width: 800px){
              width:50%;   
             }
@@ -73,7 +82,8 @@
             img{
                 height:100%;
                 width:100%;
-                padding:2%
+                padding:2%;
+                
             }
         }
 
